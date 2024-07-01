@@ -27,8 +27,7 @@ public class Anagrams2 {
 	}
 
 	public static void main(String[] args) {
-		String s1="SILENT";
-		String s2 = "LISTEN";
+		
 		isAnagram("SILENT", "LISTEN");
 		//System.out.println(isAnagram("SILENT", "LISTEN"));
 	

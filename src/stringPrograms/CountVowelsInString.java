@@ -4,24 +4,25 @@ public class CountVowelsInString {
 
 	public static void main(String[] args) {
 
-		String str = "SoftwareTestingInstitute";
-		String str1 = str.toLowerCase();
-		System.out.println(str1);
-
-		int count = 0;
-
-		for (int i = 0; i < str.length(); i++) {
-
-			if (str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i' || str.charAt(i) == 'o'
-					|| str.charAt(i) == 'u') {
+		String str= "Hello EveryOne";
+		
+		int Count=0;
+		str=str.toLowerCase();
+		
+		for(int i=0; i<str.length();i++) {
+			
+			char ch=str.charAt(i);
+			
+			if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u') {
 				
-				count++;
-
+				Count++;
+				
 			}
-
 		}
-		System.out.println("Total no: of vowels in the given string are : " + count);
-
+		
+		System.out.println("Number of Vowels in the String are:" + Count);
+		
+		
 	}
 
 }

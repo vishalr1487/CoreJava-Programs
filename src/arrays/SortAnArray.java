@@ -1,21 +1,10 @@
-
 package arrays;
 
-import java.util.Arrays;
-
 public class SortAnArray {
-	
-	
-	
-	
 	public static void main(String[] args) {
-		
-		
-
-		int[] arr = { 1,7,6,5,4,3,2 };
+		int[] arr = { 1, 7, 6, 5, 4, 3, 2 };
 
 		for (int i = 0; i < arr.length; i++) {
-
 			for (int j = i + 1; j < arr.length; j++) {
 				int temp = 0;
 				if (arr[i] > arr[j]) {
@@ -26,9 +15,5 @@ public class SortAnArray {
 			}
 			System.out.print(arr[i] + " ");
 		}
-
-		//System.out.println(Arrays.toString(arr));
-
 	}
-
 }

@@ -1,10 +1,7 @@
 package arrays;
 
-import java.util.Arrays;
-import java.util.HashSet;
-
 public class RemoveDupilateSortedArrray {
-	
+
 	// THIS METHOD IS FOR SORTED ARRAY
 
 	public static void main(String[] args) {
@@ -21,12 +18,12 @@ public class RemoveDupilateSortedArrray {
 			}
 
 		}
-		
+
 		temp[count] = arr[arr.length - 1];
 		System.out.print("{");
 
 		for (int i = 0; i < temp.length; i++) {
-			System.out.print(" " + temp[i] + " " );
+			System.out.print(" " + temp[i] + " ");
 		}
 
 		System.out.println("}");
@@ -64,8 +61,8 @@ public class RemoveDupilateSortedArrray {
 //		for (int number : hs) {
 //			System.out.print(number + " ");
 //		}
-		
-		//// USING ARRAYS CLASS TO SORT THEN APPLY SAME LOGIC 
+
+		//// USING ARRAYS CLASS TO SORT THEN APPLY SAME LOGIC
 //		
 //		Arrays.sort(arr);
 //		
